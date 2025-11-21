@@ -1,0 +1,45 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# =========================
+# Env / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Editor / temp files
+# =========================
+*.swp
+*.swo
+*.tmp
+*.save
+*~
+*.bak
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / coverage
+# =========================
+dist/
+build/
+coverage/
+.cache/
